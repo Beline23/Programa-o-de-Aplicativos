@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class Main{
+public static void main(String[]args){
+    Scanner teclado = new Scanner(System.in);
+    System.out.println("A equação A) 2x + 5x - 10x - (-x - 20) + 40x ");
+    System.out.println("A equação B) 8x + 5 + 30/x - 20x -(x- 5x - 10x)");
+    System.out.println("A equação D) 10/x + 8x - 12x ");
+    float x = -2;
+    System.out.println("A equação A) = "+(2*x + 5*x - 10*x - (-x - 20) + 40*x));
+    System.out.println("A equação B) = "+(8*x + 5 + 30/x - 20*x -(x - 5*x - 10*x)));
+    System.out.println("A equação C) = "+(100*x + 5*x + x + x/8 - 85*x - 22*x));
+    System.out.println("A equação D) = "+(10/x + 8*x - 12*x));
+   
+    teclado.close();
+}
+}
