@@ -46,4 +46,4 @@ public class CalculoEstoque {
         System.out.println("O estoque mínimo geral é: " + estoqueMinimoGeral);
         System.out.println("O estoque máximo geral é: " + estoqueMaximoGeral);
     }
-}
+} 
